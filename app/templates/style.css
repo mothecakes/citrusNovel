@@ -1,11 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Chivo:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Cherry Bomb One;
 }
 
 body{
-    background-image: url(orange.jpg);
-    background-size: auto;
+    background-image: url(oranag.png);
+    background-size:100%;
 }
+
+.welcome-container{
+    padding-top: 350px;
+}
+
+.home{
+    justify-content: center;
+    text-align: center;
+}
+
+.home h1{
+    color: #FD6F2F;
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin-top: 300px;
+    margin-left: 450px;
+    margin-right: 450px;    
+    border: 5px solid black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;       /* Rounds the corners */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2); /* Adds a soft shadow */
+}
+
+.description{
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 5px solid black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;       /* Rounds the corners */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2); /* Adds a soft shadow */
+}
+
