@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+h3{
+    flex:1;
+    background-color: red;
+}
